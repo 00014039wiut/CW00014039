@@ -1,0 +1,43 @@
+/* Custom CSS for form */
+.shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.border {
+  border: 1px solid #e0e0e0; /* Add border */
+  border-radius: 8px; /* Add border radius */
+}
+
+.form-container {
+  width: 50%; /* Adjust width as needed */
+  margin: 0 auto; /* Center the form */
+  padding: 20px; /* Add padding */
+  background-color: #f9f9f9; /* Add background color */
+}
+
+.form-field {
+  margin-bottom: 20px; /* Add margin between form fields */
+}
+
+.form-button {
+  text-align: center; /* Center align the button */
+}
+
+/* Styling for form inputs */
+.mat-form-field {
+  width: 100%; /* Set input field width to 100% */
+}
+
+/* Styling for buttons */
+button.mat-raised-button {
+  background-color: #007bff; /* Button background color */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add button border radius */
+  padding: 10px 20px; /* Add padding */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button.mat-raised-button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
